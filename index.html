@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="CFIC Showcase — demonstração interativa de inscrições e gestão comercial com dados fictícios."><meta name="color-scheme" content="light"><title>CFIC · Showcase interativo</title><link rel="icon" href="assets/cfic-logo.png"><link rel="stylesheet" href="styles.css"><script type="module" src="app.js"></script></head>
+<body>
+<a class="skip" href="#main">Ir para o conteúdo</a>
+<div class="demo-banner">AMBIENTE DEMONSTRATIVO <span>Dados fictícios · Sem pagamentos ou mensagens reais</span></div>
+<header><a href="#inicio" class="brand"><img src="assets/cfic-logo.png" alt="CFIC"><span>CFIC <small>SHOWCASE / GESTÃO EDUCACIONAL</small></span></a><nav aria-label="Navegação principal"><a href="#inicio">Apresentação</a><a href="#inscricao">Inscrição</a><a href="#painel">Painel demo</a><a href="https://github.com/jonascepa09-star/cfic-showcase" target="_blank" rel="noopener">GitHub ↗</a></nav></header>
+<main id="main"></main><div id="toast" role="status" aria-live="polite"></div>
+<dialog id="editor"><form id="edit-form"><p class="eyebrow">FICHA DEMONSTRATIVA</p><h2>Editar contato</h2><input type="hidden" name="id"><label>Nome fictício<input name="name" required maxlength="80"></label><label>Situação<select name="status"><option>Aguardando retorno</option><option>Interesse confirmado</option><option>Matriculado</option><option>Sem interesse</option></select></label><label>Observações<textarea name="note" rows="4" maxlength="600"></textarea></label><div class="actions"><button type="button" class="secondary" id="close-editor">Cancelar</button><button>Salvar nesta demo</button></div></form></dialog>
+<footer><strong>CFIC · Showcase</strong><span>Uma visão do produto, do primeiro contato à matrícula.</span><a href="https://github.com/jonascepa09-star/cfic-showcase">Documentação e capturas ↗</a><small>Simulador independente. Não se conecta ao Supabase, OpenWA ou ao ambiente de produção.</small></footer>
+</body></html>
+
