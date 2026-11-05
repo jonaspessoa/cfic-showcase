@@ -3,7 +3,7 @@
   <h1>CFIC · Showcase</h1>
   <p><strong>Do primeiro interesse à matrícula, com uma visão completa do atendimento.</strong></p>
   <p>Inscrições · Gestão comercial · Caderno digital · Indicadores</p>
-  <p><a href="https://jonascepa09-star.github.io/cfic-showcase/">Abrir demonstração</a> · <a href="https://jonascepa09-star.github.io/cfic-showcase/#painel">Testar o painel</a> · <a href="#galeria">Ver as telas</a> · <a href="docs/ARQUITETURA.md">Arquitetura</a></p>
+  <p><a href="https://jonaspessoa.github.io/cfic-showcase/">Abrir demonstração</a> · <a href="https://jonaspessoa.github.io/cfic-showcase/#painel">Testar o painel</a> · <a href="#galeria">Ver as telas</a> · <a href="docs/ARQUITETURA.md">Arquitetura</a></p>
 </div>
 
 ![Apresentação interativa do CFIC Showcase](docs/screenshots/06-demo-home.png)
@@ -18,7 +18,7 @@ O projeto nasceu de uma operação com anotações em cadernos manuscritos e evo
 
 ## Teste agora
 
-**[Abrir o painel demonstrativo →](https://jonascepa09-star.github.io/cfic-showcase/#painel)**
+**[Abrir o painel demonstrativo →](https://jonaspessoa.github.io/cfic-showcase/#painel)**
 
 | Acesso público da demo | Valor |
 | --- | --- |
@@ -159,7 +159,7 @@ Leia os detalhes em [Arquitetura e decisões](docs/ARQUITETURA.md) e [Segurança
 Requisitos: Python 3 para servir os arquivos; Node.js 20 ou superior para executar os testes. Não há dependências de execução para instalar.
 
 ```bash
-git clone https://github.com/jonascepa09-star/cfic-showcase.git
+git clone https://github.com/jonaspessoa/cfic-showcase.git
 cd cfic-showcase
 python -m http.server 4173 --bind 127.0.0.1
 ```
